@@ -1,314 +1,378 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Webinar Landing Page</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Webinar Landing Page</title>
-</head>
+	<body>
+		<header class="w-full bg-white">
+			<div class="logo-wrapper py-3.5 md:py-8">
+				<p class="text-center text-lg font-semibold text-black">LOGO</p>
+			</div>
+		</header>
 
-<body>
-    <header class="w-full bg-white">
-        <div class="logo-wrapper py-3.5">
-            <p class="text-lg text-black text-center font-semibold">LOGO</p>
-        </div>
-    </header>
+		<main>
+			<!-- hero section -->
+			<section class="hero bg-no-repeat">
+				<div class="m-auto flex max-w-screen-8xl flex-col gap-6 px-5 pt-9 sm:px-8 sm:pb-4 sm:pt-10 md:px-12">
+					<div class="headline flex flex-col gap-2 text-center lg:gap-4">
+						<p class="font-lora font-semibold uppercase text-gold md:text-xl xl:text-3xl">
+							Explore the world for less
+						</p>
+						<h1
+							class="mx-auto max-w-xl text-center text-2xl font-semibold uppercase leading-normal md:text-4xl md:leading-normal xl:max-w-4xl xl:text-5xl xl:leading-normal">
+							save up to 50% off your dream cruise or resort vacation
+						</h1>
 
-    <main>
-        <!-- hero section -->
-        <section class="hero bg-no-repeat">
-            <div class="max-w-6xl m-auto flex flex-col gap-6 pt-9 px-5 sm:pt-20 sm:px-8 md:px-12">
-                <div class="headline flex flex-col gap-2 text-center">
-                    <p class="font-lora font-semibold md:text-xl uppercase text-gold">
-                        Explore the world for less
-                    </p>
-                    <h1
-                        class="font-semibold text-2xl md:text-4xl md:leading-relaxed uppercase leading-normal max-w-xl mx-auto">
-                        save up to 50% off your dream cruise or resort
-                        vacation
-                    </h1>
-                    <p class="max-w-3xl mx-auto font-medium text-xs text-card md:text-base leading-normal">
-                        Discover how to travel the world in luxurious comfort while saving on the lowest publicly
-                        available online prices. Get the scoop on how to save up to 50% on your next dream vacation!
-                    </p>
-                    <div class="button-cta mt-3">
-                        <a href="javascript:void(0)"
-                            class="inline-block font-medium text-xs text-white py-3 px-8 md:px-10 bg-primary rounded-full">Book
-                            My Seat!</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img class="h-full w-auto object-cover object-bottom rounded-xl" src="/assets/bg-main-3.png" alt="">
-                </div>
+						<p
+							class="mx-auto max-w-3xl text-xs font-medium leading-normal text-card md:text-base md:leading-normal lg:text-xl lg:leading-normal xl:text-2xl xl:leading-normal">
+							Discover how to travel the world in luxurious comfort while saving on the lowest publicly
+							available online prices. Get the scoop on how to save up to 50% on your next dream vacation!
+						</p>
+						<div class="button-cta my-2 xl:my-6">
+							<a
+								href="javascript:void(0)"
+								class="inline-block rounded-full bg-primary px-8 py-3 text-xs font-medium text-white md:px-10 md:text-base xl:px-14 xl:py-3 xl:text-lg">
+								Book My Seat!
+							</a>
+						</div>
+					</div>
+					<div class="hero-image">
+						<img
+							class="h-full w-auto rounded-xl object-cover object-bottom"
+							src="/assets/bg-main-3.png"
+							alt="" />
+					</div>
+				</div>
+			</section>
+			<!-- brand section -->
+			<section
+				class="brand mx-auto max-w-screen-8xl px-5 py-8 sm:px-8 sm:py-12 md:px-12 lg:px-24 lg:py-10 xl:px-32">
+				<div class="flex items-center justify-center gap-3.5 sm:justify-between">
+					<div>
+						<img class="sm:h-14 sm:w-auto lg:h-20" src="assets/ncl.png" alt="" />
+					</div>
+					<div>
+						<img class="sm:h-14 sm:w-auto lg:h-20" src="assets/hilton.png" alt="" />
+					</div>
+					<div>
+						<img class="sm:h-14 sm:w-auto lg:h-20" src="assets/carnival.png" alt="" />
+					</div>
+					<div>
+						<img class="sm:h-14 sm:w-auto lg:h-20" src="assets/radisson.png" alt="" />
+					</div>
+					<div>
+						<img class="sm:h-14 sm:w-auto lg:h-20" src="assets/disney.png" alt="" />
+					</div>
+					<div>
+						<img class="sm:h-14 sm:w-auto lg:h-20" src="assets/costa.png" alt="" />
+					</div>
+				</div>
+			</section>
+			<!-- call to action section -->
+			<section class="cta bg-matte-black px-5 py-10 sm:px-8 sm:py-14 lg:py-16">
+				<div
+					class="m-auto flex max-w-screen-8xl flex-wrap items-center justify-between gap-4 gap-x-0 sm:flex-nowrap sm:justify-center sm:gap-8">
+					<h2
+						class="max-w-44 font-semibold uppercase text-white md:max-w-64 md:text-2xl xl:max-w-80 xl:text-3xl">
+						Join our exclusive membership today!
+					</h2>
+					<a
+						href="javascript:void(0)"
+						class="inline-block rounded-full bg-primary px-8 py-3 text-center text-xs font-medium text-white sm:order-3 sm:basis-auto md:px-10 md:text-base xl:px-14 xl:py-3 xl:text-lg">
+						Sign Up
+					</a>
+					<p
+						class="basis-full text-xs font-medium text-custom-gray sm:order-2 sm:basis-1/3 md:text-sm lg:text-base lg:leading-normal">
+						Unlock a world of premium content, early access to webinars, special discounts, and a vibrant
+						community of like-minded professionals eager to grow together.
+					</p>
+				</div>
+			</section>
+			<!-- testimonials section -->
+			<section
+				class="testimonials mx-auto flex max-w-screen-8xl flex-col gap-5 px-5 py-10 sm:px-8 sm:py-12 md:gap-8 md:px-12 lg:px-20 lg:py-20 xl:px-24">
+				<div class="headline m-auto max-w-xs sm:max-w-none">
+					<h2
+						class="text-center font-lora text-xl font-semibold uppercase leading-normal text-neutral-900 md:text-2xl lg:text-3xl xl:text-4xl">
+						What our customers say about us
+					</h2>
+				</div>
+				<div class="card-container grid grid-cols-1 gap-4 sm:grid-cols-3">
+					<div class="card rounded-lg bg-card px-6 py-5">
+						<div class="quote mb-1.5 ml-auto w-fit">
+							<img class="h-11 w-11 lg:h-12 lg:w-12" src="assets/quotes.svg" alt="quote-icon" />
+						</div>
+						<div class="content mb-7 text-xs font-medium text-card lg:text-base xl:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+								risus. Eget justo etiam amet.
+							</p>
+						</div>
+						<div class="person-testimonial flex items-center gap-3">
+							<div class="profile">
+								<img
+									class="h-10 w-10 overflow-hidden rounded-full object-cover xl:h-12 xl:w-12"
+									src="assets/person.png"
+									alt="" />
+							</div>
+							<div class="information">
+								<p class="text-sm font-medium text-neutral-900 lg:text-base xl:text-lg">
+									Janson Aliandra
+								</p>
+								<p class="text-xs font-medium text-card lg:text-sm"> American Author and Blogger </p>
+							</div>
+						</div>
+					</div>
+					<div class="card rounded-lg bg-card px-6 py-5">
+						<div class="quote mb-1.5 ml-auto w-fit">
+							<img class="h-11 w-11 lg:h-12 lg:w-12" src="assets/quotes.svg" alt="quote-icon" />
+						</div>
+						<div class="content mb-7 text-xs font-medium text-card lg:text-base xl:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+								risus. Eget justo etiam amet.
+							</p>
+						</div>
+						<div class="person-testimonial flex items-center gap-3">
+							<div class="profile">
+								<img
+									class="h-10 w-10 overflow-hidden rounded-full object-cover xl:h-12 xl:w-12"
+									src="assets/person.png"
+									alt="" />
+							</div>
+							<div class="information">
+								<p class="text-sm font-medium text-neutral-900 lg:text-base xl:text-lg">
+									Janson Aliandra
+								</p>
+								<p class="text-xs font-medium text-card lg:text-sm"> American Author and Blogger </p>
+							</div>
+						</div>
+					</div>
+					<div class="card rounded-lg bg-card px-6 py-5">
+						<div class="quote mb-1.5 ml-auto w-fit">
+							<img class="h-11 w-11 lg:h-12 lg:w-12" src="assets/quotes.svg" alt="quote-icon" />
+						</div>
+						<div class="content mb-7 text-xs font-medium text-card lg:text-base xl:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+								risus. Eget justo etiam amet.
+							</p>
+						</div>
+						<div class="person-testimonial flex items-center gap-3">
+							<div class="profile">
+								<img
+									class="h-10 w-10 overflow-hidden rounded-full object-cover xl:h-12 xl:w-12"
+									src="assets/person.png"
+									alt="" />
+							</div>
+							<div class="information">
+								<p class="text-sm font-medium text-neutral-900 lg:text-base xl:text-lg">
+									Janson Aliandra
+								</p>
+								<p class="text-xs font-medium text-card lg:text-sm"> American Author and Blogger </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- featured guest section -->
+			<section
+				class="featured-guest mx-auto flex max-w-screen-8xl flex-col gap-6 px-5 py-10 sm:flex-row sm:items-start sm:px-8 sm:py-12 md:justify-between md:gap-14 md:px-12 lg:gap-20 lg:px-20 xl:px-24">
+				<div
+					class="h-72 w-full overflow-hidden rounded-xl sm:order-2 sm:max-w-60 md:h-80 md:max-w-64 lg:h-96 lg:max-w-72 xl:max-w-80">
+					<img class="h-full w-full object-cover object-[66%]" src="/assets/person-2.png" alt="" />
+				</div>
+				<div class="flex flex-col gap-5 md:basis-11/12">
+					<div class="flex flex-col gap-5">
+						<h2
+							class="font-lora text-xl font-semibold uppercase text-neutral-900 md:text-2xl lg:text-3xl lg:leading-normal xl:text-4xl xl:leading-normal">
+							Our featured guest:
+							<span class="block text-primary">Hector Agosto</span>
+						</h2>
+						<p
+							class="text-xs font-medium leading-normal text-card md:text-sm lg:text-base lg:leading-normal xl:text-xl xl:leading-normal">
+							Hector Agasto is renowned for his strategic vision, innovative approach, and unwavering
+							commitment to excellence. With over 10 years of experience in the business world, he has
+							built a reputation for driving growth, fostering innovation, and delivering results.
+						</p>
+					</div>
+					<ul
+						class="flex flex-col gap-5 text-xs font-medium leading-normal text-card md:text-sm lg:text-base xl:text-xl">
+						<li class="bullets flex items-center gap-3.5 before:h-1.5 before:w-1.5">
+							Hector has founded and managed several successful ventures.
+						</li>
+						<li class="bullets flex items-center gap-3.5 before:h-1.5 before:w-1.5">
+							His entrepreneurial savvy drives trend spotting, opportunity seizing, and value creation.
+						</li>
+						<li class="bullets flex items-center gap-3.5 before:h-1.5 before:w-1.5">
+							Hector is also deeply committed to giving back to the community
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- benefits section -->
+			<section
+				class="benefits m-auto flex max-w-screen-8xl flex-col gap-6 px-5 py-10 sm:px-8 sm:py-12 md:gap-8 md:px-12 lg:gap-11 lg:px-20 lg:py-20 xl:px-24">
+				<div class="headline m-auto max-w-56 xs:max-w-96 sm:max-w-none">
+					<h2
+						class="text-center font-lora text-xl font-semibold uppercase leading-normal text-neutral-900 md:text-2xl lg:text-4xl">
+						what you are going to learn
+					</h2>
+				</div>
+				<div class="card-container grid grid-cols-1 gap-5 sm:mb-5 sm:grid-cols-2">
+					<div class="card relative rounded-2xl bg-card p-6 lg:p-8">
+						<div class="mb-4 flex items-center gap-2">
+							<img
+								class="h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8"
+								src="assets/checklist.svg"
+								alt="checklist-icon" />
+							<p class="text-sm font-semibold text-neutral-800 md:text-base lg:text-xl"> Lorem Ipsum </p>
+						</div>
+						<div class="content text-xs font-medium leading-normal text-card md:text-sm lg:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							</p>
+						</div>
+					</div>
+					<div class="card relative rounded-2xl bg-card p-6 lg:p-8">
+						<div class="mb-4 flex items-center gap-2">
+							<img
+								class="h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8"
+								src="assets/checklist.svg"
+								alt="checklist-icon" />
+							<p class="text-sm font-semibold text-neutral-800 md:text-base lg:text-xl"> Lorem Ipsum </p>
+						</div>
+						<div class="content text-xs font-medium leading-normal text-card md:text-sm lg:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							</p>
+						</div>
+					</div>
+					<div class="card relative rounded-2xl bg-card p-6 lg:p-8">
+						<div class="mb-4 flex items-center gap-2">
+							<img
+								class="h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8"
+								src="assets/checklist.svg"
+								alt="checklist-icon" />
+							<p class="text-sm font-semibold text-neutral-800 md:text-base lg:text-xl"> Lorem Ipsum </p>
+						</div>
+						<div class="content text-xs font-medium leading-normal text-card md:text-sm lg:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							</p>
+						</div>
+					</div>
+					<div class="card relative rounded-2xl bg-card p-6 lg:p-8">
+						<div class="mb-4 flex items-center gap-2">
+							<img
+								class="h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8"
+								src="assets/checklist.svg"
+								alt="checklist-icon" />
+							<p class="text-sm font-semibold text-neutral-800 md:text-base lg:text-xl"> Lorem Ipsum </p>
+						</div>
+						<div class="content text-xs font-medium leading-normal text-card md:text-sm lg:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							</p>
+						</div>
+					</div>
+					<div class="card relative rounded-2xl bg-card p-6 lg:p-8">
+						<div class="mb-4 flex items-center gap-2">
+							<img
+								class="h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8"
+								src="assets/checklist.svg"
+								alt="checklist-icon" />
+							<p class="text-sm font-semibold text-neutral-800 md:text-base lg:text-xl"> Lorem Ipsum </p>
+						</div>
+						<div class="content text-xs font-medium leading-normal text-card md:text-sm lg:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							</p>
+						</div>
+					</div>
+					<div class="card relative rounded-2xl bg-card p-6 lg:p-8">
+						<div class="mb-4 flex items-center gap-2">
+							<img
+								class="h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8"
+								src="assets/checklist.svg"
+								alt="checklist-icon" />
+							<p class="text-sm font-semibold text-neutral-800 md:text-base lg:text-xl"> Lorem Ipsum </p>
+						</div>
+						<div class="content text-xs font-medium leading-normal text-card md:text-sm lg:text-lg">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="more-about flex flex-col sm:flex-row sm:items-center sm:gap-10">
+					<div class="img-container mb-8 max-h-64 overflow-hidden rounded-xl sm:mb-0 lg:max-h-80 lg:w-full">
+						<img class="h-full w-full" src="assets/additional.png" alt="additional-image" />
+					</div>
+					<div class="content">
+						<h2
+							class="mb-6 w-3/4 text-xl font-semibold uppercase leading-normal text-neutral-900 sm:mb-4 sm:w-full md:text-2xl lg:text-3xl">
+							If so, then you need to hear more!
+						</h2>
+						<p class="text-xs leading-normal text-card md:text-sm lg:text-base xl:text-lg">
+							Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							risus. Eget justo etiam amet hendrerit cursus elementum sagittis aliquam vitae. Quam purus
+							nunc proin in enim id volutpat.
+						</p>
+						<div class="button-cta mt-8 sm:mt-6">
+							<a
+								href="javascript:void(0)"
+								class="inline-block rounded-full bg-primary px-8 py-3 text-xs font-medium text-white md:text-sm lg:text-base xl:px-14 xl:py-3 xl:text-lg">
+								Book My Seat!
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- cta-footer section -->
+			<section class="cta-footer bg-matte-black px-5 pt-10 sm:px-8 sm:pt-12 md:px-12 lg:px-20 lg:pt-16 xl:px-24">
+				<div class="m-auto mx-auto flex max-w-screen-8xl flex-col gap-7">
+					<div class="content mx-auto lg:max-w-2xl xl:max-w-3xl">
+						<h2
+							class="mb-3 text-center font-lora text-xl font-semibold uppercase leading-normal text-white md:text-4xl md:leading-normal xl:text-5xl xl:leading-normal">
+							Reserve now for upcoming webinars and grow with us
+						</h2>
+						<p
+							class="text-center text-xs leading-normal text-white md:text-sm lg:text-base lg:leading-normal xl:text-xl xl:leading-normal">
+							Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id
+							risus. Eget justo etiam amet hendrerit cursus elementum sagittis aliquam vitae.
+						</p>
+					</div>
+					<div class="button-cta mx-auto w-fit">
+						<a
+							href="javascript:void(0)"
+							class="inline-block rounded-full bg-primary px-8 py-3 text-xs font-medium text-white md:px-10 md:text-sm lg:text-base xl:px-14 xl:py-3 xl:text-lg">
+							Book My Seat!
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
 
-            </div>
-        </section>
-        <!-- brand section -->
-        <section class="brand py-8 px-5 sm:py-12 sm:px-8 md:px-12 max-w-6xl mx-auto">
-            <div class="flex justify-center items-center gap-3.5 sm:justify-between">
-                <div>
-                    <img class="sm:h-14 sm:w-auto" src="assets/ncl.png" alt="">
-                </div>
-                <div>
-                    <img class="sm:h-14 sm:w-auto" src="assets/hilton.png" alt="">
-                </div>
-                <div>
-                    <img class="sm:h-14 sm:w-auto" src="assets/carnival.png" alt="">
-                </div>
-                <div>
-                    <img class="sm:h-14 sm:w-auto" src="assets/radisson.png" alt="">
-                </div>
-                <div>
-                    <img class="sm:h-14 sm:w-auto" src="assets/disney.png" alt="">
-                </div>
-                <div>
-                    <img class="sm:h-14 sm:w-auto" src="assets/costa.png" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- call to action section -->
-        <section class="cta py-10 px-5 sm:py-14 sm:px-8 bg-matte-black">
-            <div
-                class="max-w-6xl m-auto flex flex-wrap justify-between items-center gap-4 sm:gap-8 sm:flex-nowrap sm:justify-center">
-                <h2 class="font-semibold text-white uppercase basis-1/2 sm:basis-1/3 md:text-2xl lg:basis-1/4">Join our
-                    exclusive
-                    membership today!
-                </h2>
-                <a href="javascript:void(0)"
-                    class="inline-block font-medium text-xs text-white py-3 px-8 bg-primary rounded-full sm:order-3 sm:basis-auto text-center">Sign
-                    Up</a>
-                <p class="font-medium text-xs md:text-sm text-custom-gray basis-full sm:basis-1/3 sm:order-2">
-                    Unlock a world of premium content, early access to webinars, special discounts, and a vibrant
-                    community
-                    of like-minded professionals eager to grow together.
-                </p>
-            </div>
-        </section>
-        <!-- testimonials section -->
-        <section
-            class="testimonials py-10 px-5 flex flex-col gap-5 md:gap-8 sm:py-12 sm:px-8 md:px-12 max-w-6xl mx-auto">
-            <div class="headline max-w-xs sm:max-w-none m-auto">
-                <h2
-                    class="font-lora font-semibold text-xl md:text-2xl text-center text-neutral-900 uppercase leading-normal">
-                    What our customers say about us</h2>
-            </div>
-            <div class="card-container grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div class="card py-5 px-6 bg-card rounded-lg">
-                    <div class="quote w-fit ml-auto mb-1.5">
-                        <img class="w-11 h-11" src="assets/quotes.svg" alt="quote-icon">
-                    </div>
-                    <div class="content font-medium text-xs text-card mb-7">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rem laborum sint, libero
-                            accusantium magni quam natus aut consequatur nam ad nesciunt iure fugiat corporis ab
-                            adipisci sed, perferendis tempora!</p>
-                    </div>
-                    <div class="person-testimonial flex gap-3 items-center">
-                        <div class="profile">
-                            <img class="h-10 w-10 object-cover rounded-full overflow-hidden" src="assets/person.png"
-                                alt="">
-                        </div>
-                        <div class="information">
-                            <p class="font-medium text-sm text-neutral-900">Janson Aliandra</p>
-                            <p class="font-medium text-xs text-card">American Author and Blogger</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card py-5 px-6 bg-card rounded-lg">
-                    <div class="quote w-fit ml-auto mb-1.5">
-                        <img class="w-11 h-11" src="assets/quotes.svg" alt="quote-icon">
-                    </div>
-                    <div class="content font-medium text-xs text-card mb-7">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rem laborum sint, libero
-                            accusantium magni quam natus aut consequatur nam ad nesciunt iure fugiat corporis ab
-                            adipisci sed, perferendis tempora!</p>
-                    </div>
-                    <div class="person-testimonial flex gap-3 items-center">
-                        <div class="profile">
-                            <img class="h-10 w-10 object-cover rounded-full overflow-hidden" src="assets/person.png"
-                                alt="">
-                        </div>
-                        <div class="information">
-                            <p class="font-medium text-sm text-neutral-900">Janson Aliandra</p>
-                            <p class="font-medium text-xs text-card">American Author and Blogger</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card py-5 px-6 bg-card rounded-lg">
-                    <div class="quote w-fit ml-auto mb-1.5">
-                        <img class="w-11 h-11" src="assets/quotes.svg" alt="quote-icon">
-                    </div>
-                    <div class="content font-medium text-xs text-card mb-7">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rem laborum sint, libero
-                            accusantium magni quam natus aut consequatur nam ad nesciunt iure fugiat corporis ab
-                            adipisci sed, perferendis tempora!</p>
-                    </div>
-                    <div class="person-testimonial flex gap-3 items-center">
-                        <div class="profile">
-                            <img class="h-10 w-10 object-cover rounded-full overflow-hidden" src="assets/person.png"
-                                alt="">
-                        </div>
-                        <div class="information">
-                            <p class="font-medium text-sm text-neutral-900">Janson Aliandra</p>
-                            <p class="font-medium text-xs text-card">American Author and Blogger</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- featured guest section -->
-        <section
-            class="featured-guest py-10 px-5 flex flex-col gap-6 md:gap-14 sm:py-12 sm:px-8 md:px-12 sm:flex-row sm:items-start md:justify-between max-w-6xl mx-auto">
-            <div class="rounded-xl overflow-hidden sm:order-2 h-72 w-full sm:max-w-4xl md:h-80 md:basis-5/6">
-                <img class="h-full w-full object-cover object-[66%]" src="/assets/person-2.png" alt="">
-            </div>
-            <div class="flex flex-col gap-5">
-                <div class="flex flex-col gap-5">
-                    <h2 class="font-lora font-semibold text-xl md:text-2xl text-neutral-900 uppercase">
-                        Our featured guest: <span class="block text-primary">Hector Agosto</span>
-                    </h2>
-                    <p class="font-medium text-xs md:text-sm leading-normal text-card">
-                        Hector Agasto is renowned for his strategic vision, innovative approach, and unwavering
-                        commitment to excellence. With over 10 years of experience in the business world, he has built a
-                        reputation for driving growth, fostering innovation, and delivering results.</p>
-                </div>
-                <ul class="flex flex-col gap-5 text-xs text-card md:text-sm">
-                    <li class="flex items-center gap-3.5 before:w-1.5 before:h-1.5 bullets font-medium leading-normal">
-                        Hector has founded and managed several successful ventures.
-                    </li>
-                    <li class="flex items-center gap-3.5 before:w-1.5 before:h-1.5 bullets font-medium leading-normal">
-                        His entrepreneurial savvy drives trend spotting, opportunity seizing,
-                        and value creation.</li>
-                    <li class="flex items-center gap-3.5 before:w-1.5 before:h-1.5 bullets font-medium leading-normal">
-                        Hector is also deeply committed to giving back to the community</li>
-                </ul>
-            </div>
-        </section>
-        <!-- benefits section -->
-        <section class="benefits py-10 px-5 flex flex-col gap-6 md:gap-8 sm:py-12 sm:px-8 md:px-12 max-w-6xl m-auto">
-            <div class="headline max-w-64 xs:max-w-96 sm:max-w-none m-auto">
-                <h2
-                    class="font-lora font-semibold text-xl md:text-2xl text-center text-neutral-900 uppercase leading-normal">
-                    what you are going to learn
-                </h2>
-            </div>
-            <div class="card-container grid grid-cols-1 sm:grid-cols-2 gap-5 sm:mb-5">
-                <div class="card p-6 bg-card rounded-2xl">
-                    <div class="flex items-center gap-2 mb-4">
-                        <img class="w-5 h-5 md:w-6 md:h-6" src="assets/checklist.svg" alt="checklist-icon">
-                        <p class="font-semibold text-sm md:text-base text-neutral-800">Lorem Ipsum</p>
-                    </div>
-                    <div class="content font-medium text-xs md:text-sm text-card leading-normal">
-                        <p>Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id </p>
-                    </div>
-                </div>
-                <div class="card p-6 bg-card rounded-2xl">
-                    <div class="flex items-center gap-2 mb-4">
-                        <img class="w-5 h-5 md:w-6 md:h-6" src="assets/checklist.svg" alt="checklist-icon">
-                        <p class="font-semibold text-sm md:text-base text-neutral-800">Lorem Ipsum</p>
-                    </div>
-                    <div class="content font-medium text-xs md:text-sm text-card leading-normal">
-                        <p>Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id </p>
-                    </div>
-                </div>
-                <div class="card p-6 bg-card rounded-2xl">
-                    <div class="flex items-center gap-2 mb-4">
-                        <img class="w-5 h-5 md:w-6 md:h-6" src="assets/checklist.svg" alt="checklist-icon">
-                        <p class="font-semibold text-sm md:text-base text-neutral-800">Lorem Ipsum</p>
-                    </div>
-                    <div class="content font-medium text-xs md:text-sm text-card leading-normal">
-                        <p>Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id </p>
-                    </div>
-                </div>
-                <div class="card p-6 bg-card rounded-2xl">
-                    <div class="flex items-center gap-2 mb-4">
-                        <img class="w-5 h-5 md:w-6 md:h-6" src="assets/checklist.svg" alt="checklist-icon">
-                        <p class="font-semibold text-sm md:text-base text-neutral-800">Lorem Ipsum</p>
-                    </div>
-                    <div class="content font-medium text-xs md:text-sm text-card leading-normal">
-                        <p>Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id </p>
-                    </div>
-                </div>
-                <div class="card p-6 bg-card rounded-2xl">
-                    <div class="flex items-center gap-2 mb-4">
-                        <img class="w-5 h-5 md:w-6 md:h-6" src="assets/checklist.svg" alt="checklist-icon">
-                        <p class="font-semibold text-sm md:text-base text-neutral-800">Lorem Ipsum</p>
-                    </div>
-                    <div class="content font-medium text-xs md:text-sm text-card leading-normal">
-                        <p>Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id </p>
-                    </div>
-                </div>
-                <div class="card p-6 bg-card rounded-2xl">
-                    <div class="flex items-center gap-2 mb-4">
-                        <img class="w-5 h-5 md:w-6 md:h-6" src="assets/checklist.svg" alt="checklist-icon">
-                        <p class="font-semibold text-sm md:text-base text-neutral-800">Lorem Ipsum</p>
-                    </div>
-                    <div class="content font-medium text-xs md:text-sm text-card leading-normal">
-                        <p>Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id </p>
-                    </div>
-                </div>
-            </div>
-            <div class="more-about flex flex-col sm:flex-row sm:gap-10 sm:items-center">
-                <div class="img-container rounded-xl overflow-hidden mb-8 sm:mb-0 max-h-64">
-                    <img class="h-full" src="assets/additional.png" alt="additional-image">
-                </div>
-                <div class="content">
-                    <h2
-                        class="w-3/4 sm:w-full leading-normal font-semibold text-xl md:text-2xl text-neutral-900 uppercase mb-6 sm:mb-4">
-                        If so, then you need to hear more!
-                    </h2>
-                    <p class="text-card text-xs md:text-sm leading-normal">
-                        Lorem ipsum dolor sit amet consectetur.Posuere vulputate lorem viverra in in mauris id risus.
-                        Eget justo etiam amet hendrerit cursus elementum sagittis aliquam vitae.
-                    </p>
-                    <div class="button-cta mt-8 sm:mt-6">
-                        <a href="javascript:void(0)"
-                            class="inline-block font-medium text-xs text-white py-3 px-8 md:px-10 bg-primary rounded-full">Book
-                            My Seat!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- cta-footer section -->
-        <section class="cta-footer bg-matte-black pt-10 px-5 sm:px-8">
-            <div class="max-w-6xl m-auto flex flex-col gap-7">
-                <div class="content sm:w-3/4 lg:w-2/3 mx-auto">
-                    <h2
-                        class="font-lora font-semibold text-xl md:text-4xl text-center text-white uppercase leading-normal md:leading-relaxed mb-3">
-                        Reserve now for upcoming webinars and grow with us
-                    </h2>
-                    <p class="text-center text-xs md:text-sm text-white leading-normal">
-                        Lorem ipsum dolor sit amet consectetur. Posuere vulputate lorem viverra in in mauris id risus.
-                        Eget
-                        justo etiam amet hendrerit cursus elementum sagittis aliquam vitae.
-                    </p>
-                </div>
-                <div class="button-cta w-fit mx-auto">
-                    <a href="javascript:void(0)"
-                        class="inline-block font-medium text-xs text-white py-3 px-8 md:px-10 bg-primary rounded-full">
-                        Book My Seat!
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-matte-black pb-10 pt-7 md:pt-12 px-5 py-9 md:px-12">
-        <div
-            class="border-t border-t-white flex flex-col gap-3 text-white pt-3 sm:flex-row sm:items-center sm:justify-between sm:gap-0 max-w-6xl m-auto">
-            <div class="copyright text-xs text-center leading-tight sm:basis-1/3 sm:text-start">
-                Copyright 2024 (Brand Name) All Right Reserved.
-            </div>
-            <div class="hidden sm:block sm:basis-1/3">
-                <p class="text-lg text-center text-white font-semibold">LOGO</p>
-            </div>
-            <div class="flex justify-center items-center gap-5 sm:basis-1/3 sm:justify-end">
-                <a href="javascript:void(0)" class="text-[10px]">Privacy Policy</a>
-                <a href="javascript:void(0)" class="text-[10px]">Terms and Conditions</a>
-            </div>
-        </div>
-    </footer>
-</body>
-
+		<footer class="bg-matte-black px-5 py-9 pb-10 pt-7 md:px-12 md:pt-12 lg:px-20 lg:pt-16 xl:px-24">
+			<div
+				class="m-auto flex max-w-screen-8xl flex-col gap-3 border-t border-t-white pt-3 text-white sm:flex-row sm:items-center sm:justify-between sm:gap-0">
+				<div class="copyright text-center text-xs leading-tight sm:basis-1/3 sm:text-start lg:text-sm">
+					Copyright 2024 (Brand Name) All Right Reserved.
+				</div>
+				<div class="hidden sm:block sm:basis-1/3">
+					<p class="text-center text-lg font-semibold text-white"> LOGO </p>
+				</div>
+				<div class="flex items-center justify-center gap-5 text-[10px] sm:basis-1/3 sm:justify-end lg:text-sm">
+					<a href="javascript:void(0)"> Privacy Policy </a>
+					<a href="javascript:void(0)"> Terms and Conditions </a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
