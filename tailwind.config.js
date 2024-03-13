@@ -5,6 +5,7 @@ export default {
 		extend: {
 			screens: {
 				xs: '425px',
+				'8xl': '1440px',
 			},
 			backgroundColor: {
 				card: '#F6F7F9',
